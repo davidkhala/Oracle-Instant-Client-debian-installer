@@ -1,1 +1,3 @@
-# Oracle-Instant-Client-debian-installer
+# Oracle Instant Client Debian Installer
+`$ ./install.sh Basic`
+
