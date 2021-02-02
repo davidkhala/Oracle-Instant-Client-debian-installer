@@ -1,3 +1,5 @@
-# Oracle Instant Client Debian Installer
-`$ ./install.sh Basic`
+# Oracle Database Client-family Debian Installer
+- Instant Client
+- SQLDeveloper
+
 
