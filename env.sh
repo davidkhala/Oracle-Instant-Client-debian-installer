@@ -8,8 +8,8 @@ else
 fi
 
 
-sudo sh -c "echo /opt/oracle/${base} > /etc/ld.so.conf.d/oracle-instantclient.conf"
-sudo ldconfig
+# sudo sh -c "echo /opt/oracle/${base} > /etc/ld.so.conf.d/oracle-instantclient.conf"
+# sudo ldconfig
 
 echo "LD_LIBRARY_PATH=${LD_LIBRARY_PATH}"
 

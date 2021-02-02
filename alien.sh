@@ -8,4 +8,16 @@ SQLDeveloper(){
     rm sqldeveloper-*.rpm
 
 }
+SQLPlus(){
+    wget https://download.oracle.com/otn_software/linux/instantclient/oracle-instantclient-sqlplus-linuxx64.rpm
+    sudo alien -i --scripts oracle-instantclient-sqlplus*.rpm 
+    rm oracle-instantclient-sqlplus*.rpm
+}
+
+instantclient(){
+    wget https://download.oracle.com/otn_software/linux/instantclient/oracle-instantclient-basic-linuxx64.rpm
+    sudo alien -i --scripts oracle-instantclient-basic*.rpm 
+    rm oracle-instantclient-basic*.rpm
+}
+
 $@
