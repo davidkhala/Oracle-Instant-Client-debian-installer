@@ -1,6 +1,7 @@
 #!/bin/bash
 set -e
 Basic() {
+  ## https://oracle.github.io/node-oracledb/INSTALL.html#3214-install-the-free-oracle-instant-client-basic-zip-file
   sudo apt-get install -y libaio1
   sudo mkdir -p /opt/oracle
   cd /opt/oracle
