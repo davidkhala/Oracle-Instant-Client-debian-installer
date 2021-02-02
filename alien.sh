@@ -7,12 +7,5 @@ SQLDeveloper(){
     sudo alien -i --scripts sqldeveloper-*.rpm 
     rm sqldeveloper-*.rpm
 
-    ## Creating a desktop entry
-    echo "[Desktop Entry]
-    Type=Application
-    Name=Oracle SQL Developer
-    Exec=sqldeveloper
-    Icon=/opt/sqldeveloper/icon.png
-    Terminal=false" >> ~/.local/share/applications/sqldeveloper.desktop
 }
 $@
